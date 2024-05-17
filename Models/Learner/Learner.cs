@@ -23,8 +23,6 @@ namespace LMS
         public DateTime created_at { get; set; }
         public string? modified_by { get; set; }
         public DateTime? modified_at { get; set; }
-        //public Profile Profile { get; set; }
-        //public Enrollment Enrollment { get; set; }
-        //public PasswordHistory PasswordHistory { get; set; }
+        
     }
 }

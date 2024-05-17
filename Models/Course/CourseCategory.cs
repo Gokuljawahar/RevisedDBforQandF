@@ -2,10 +2,10 @@
 
 namespace LMS
 {
-    public class CourseCatagory
+    public class CourseCategory
     {
         [Key]
-        public Guid catagory_id { get; set; }
+        public Guid category_id { get; set; }
         [Required]
         [MaxLength(50)]
         public string category { get; set; }

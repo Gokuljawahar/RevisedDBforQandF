@@ -31,7 +31,7 @@ namespace CodeFirstApproachForDB.Data
 
         
         public DbSet<Course> course { get; set; }
-        public DbSet<CourseCatagory> course_category { get; set; }
+        public DbSet<CourseCategory> course_category { get; set; }
         public DbSet<CourseLevel> course_levels { get; set; }
         public DbSet<LearnerProgress> learner_progress { get; set; }
         public DbSet<Material> materials { get; set; }

@@ -7,7 +7,7 @@ namespace LMS
         [Key]
         public Guid course_id { get; set; }
         public CourseLevel Level { get; set; }
-        public CourseCatagory Catagory { get; set; }
+        public CourseCategory Category { get; set; }
         [Required]
         [MaxLength(50)]
         public string title { get; set; }

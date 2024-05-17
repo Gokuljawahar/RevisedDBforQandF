@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations;
 namespace LMS
 {
     public class TopicFeedbackQuestion
-{
-        [Key]
+   {
+    [Key]
     public Guid TopicFeedbackQuestionId { get; set; }
     public Topic Topic { get; set; }
     public int QuestionNo { get; set; }
