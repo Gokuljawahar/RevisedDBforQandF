@@ -6,6 +6,7 @@ namespace CodeFirstApproachForDB.Models.Course
     {
         [Key]
         public Guid material_type_id { get; set; }
+
         [Required]
         [MaxLength(20)]
         public string type { get; set; }
